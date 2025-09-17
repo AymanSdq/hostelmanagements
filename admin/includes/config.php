@@ -17,3 +17,4 @@ $port = $_ENV['DB_PORT'] ?? 3306;
 
 $mysqli = new mysqli($host, $dbuser, $dbpass, $db, $port);
 ?>
+
